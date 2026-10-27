@@ -19,8 +19,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📡 DA2GC 5G NR — Radio Network Planning")
-st.caption("In-Flight Connectivity • 3.5 GHz • Domestic routes in Indonesia")
+st.title("Direct Air-to-Ground Communication - InFlight Communication")
+st.caption("In-Flight Connectivity • Domestic routes in Indonesia")
 st.warning(
     "Research prototype, not a certified radio-planning tool. FSPL is calculated in-app. "
     "ITU-R P.528 results must be imported from a validated implementation or official curve/software; "
