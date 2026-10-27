@@ -23,11 +23,14 @@ st.markdown("""
 
 logo_path = Path("assets/Tel-U logo_1.PRIMER Utama_png.png")
 
-col_logo, col_info = st.columns([1, 5], vertical_alignment="center")
+col_logo, col_info = st.columns(
+    [1.5, 5],
+    vertical_alignment="center"
+)
 
 with col_logo:
     if logo_path.exists():
-        st.image(str(logo_path), width=130)
+        st.image(str(logo_path), width=200)
 
 with col_info:
     st.title("5G NR Direct Air-to-Ground Communication for In-Flight Connectivity")
