@@ -21,7 +21,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-logo_path = Path("IFC Air-to-Ground Communication Badge.png")
+logo_path = Path("assets/IFC Air-to-Ground Communication Badge.png")
 
 col_logo, col_info = st.columns(
     [1.5, 5],
