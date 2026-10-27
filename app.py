@@ -19,7 +19,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-logo_path = Path("assets/Tel-U logo_1.PRIMER Utama_png.png")
+logo_path = Path("assets/telkom_university_logo.png")
 
 col_logo, col_info = st.columns([1, 5], vertical_alignment="center")
 
