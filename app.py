@@ -22,9 +22,9 @@ st.markdown("""
 st.title("Direct Air-to-Ground Communication - InFlight Communication")
 st.caption("In-Flight Connectivity • Domestic routes in Indonesia")
 st.warning(
-    "Research prototype, not a certified radio-planning tool. FSPL is calculated in-app. "
-    "ITU-R P.528 results must be imported from a validated implementation or official curve/software; "
-    "this app does not approximate or claim to implement P.528 internally."
+    "This application supports radio network planning for 5G NR Direct Air-to-Ground Communication (DA2GC) for In-Flight Connectivity. "
+    "It provides integrated calculations for link budget analysis, propagation loss, coverage estimation, site dimensioning, and capacity planning. "
+    "The application also supports the integration of ITU-R P.528 propagation results to facilitate coverage evaluation and network planning for domestic flight routes in Indonesia."
 )
 
 with st.sidebar:
