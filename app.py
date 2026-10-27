@@ -19,13 +19,23 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Direct Air-to-Ground Communication - InFlight Communication")
-st.caption("In-Flight Connectivity • Domestic routes in Indonesia")
-st.warning(
-    "This application supports radio network planning for 5G NR Direct Air-to-Ground Communication (DA2GC) for In-Flight Connectivity. "
-    "It provides integrated calculations for link budget analysis, propagation loss, coverage estimation, site dimensioning, and capacity planning. "
-    "The application also supports the integration of ITU-R P.528 propagation results to facilitate coverage evaluation and network planning for domestic flight routes in Indonesia."
-)
+logo_path = Path("assets/Tel-U logo_1.PRIMER Utama_png.png")
+
+col_logo, col_info = st.columns([1, 5], vertical_alignment="center")
+
+with col_logo:
+    if logo_path.exists():
+        st.image(str(logo_path), width=130)
+
+with col_info:
+    st.title("5G NR Direct Air-to-Ground Communication for In-Flight Connectivity")
+    st.caption("Radio Network Planning Dashboard")
+    st.markdown(
+        "**Tim Penelitian Wireless Communication - InFlight Connectivity**  \n"
+        "Telkom University"
+    )
+
+st.divider()
 
 with st.sidebar:
     st.header("Scenario inputs")
